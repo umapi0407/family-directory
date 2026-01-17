@@ -9,6 +9,7 @@ export default function FamilyMemberCard({ member }) {
     const maskedYear = year.slice(0,2) + "**";
 
     return `${day} ${month} ${maskedYear}`;
+  }
   // const formatDate = (date) => {
   //   return new Date(date).toLocaleDateString("en-US", {
   //     year: "numeric",
