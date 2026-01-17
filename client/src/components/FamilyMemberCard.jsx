@@ -1,6 +1,6 @@
 export default function FamilyMemberCard({ member }) {
   const formatDateMasked = (data) => {
-    const d = new Date(date);
+    const d = new Date(data);
 
     const day = d.getDate();
     const month = d.toLocaleString("en-US", {month: "long"});
