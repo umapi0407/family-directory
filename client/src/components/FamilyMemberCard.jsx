@@ -6,7 +6,7 @@ export default function FamilyMemberCard({ member }) {
     const month = d.toLocaleString("en-US", {month: "long"});
     const year = d.getFullYear().toString();
 
-    const maskedYear = year.slice(0,,2) + "**";
+    const maskedYear = year.slice(0,2) + "**";
 
     return `${day} ${month} ${maskedYear}`;
   // const formatDate = (date) => {
